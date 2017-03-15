@@ -23,7 +23,6 @@ public:
 	void clear();//make list empty
 	void print()const; //print all elements
 	bool IsMember(ElemType);
-
 private:
 	bool isPosValid(int)const; //validation function for pos
 };

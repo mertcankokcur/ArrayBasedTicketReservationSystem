@@ -7,7 +7,6 @@ using namespace std;
 class Flight
 {
 private:
-
 	string flightNumber;
 	List passangerList;
 public:

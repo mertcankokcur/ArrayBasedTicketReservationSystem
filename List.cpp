@@ -44,7 +44,6 @@ void List::insert(ElemType e, int pos)
 		}
 	}
 }
-
 bool List::isPosValid(int pos)const	{ return (pos>=0 && pos<=size ); }
 
 void List::remove(ElemType e)

@@ -15,7 +15,6 @@ int Flight::getNumberOfPassangers()
 
 bool Flight::cancelReservation(string passangerName)
 {
-
 	if(!passangerList.isEmpty())
 		{
 			passangerList.remove(passangerName);
